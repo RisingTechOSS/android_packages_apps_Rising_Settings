@@ -33,7 +33,7 @@
         android:icon="@drawable/ic_settings_gestures"
         android:order="-250"
         android:fragment="com.android.settings.gestures.GestureSettings"
-        settings:controller="com.statix.android.settings.gestures.StatixGesturesSettingPreferenceController"/>
+        settings:controller="com.rising.android.settings.gestures.RisingGesturesSettingPreferenceController"/>
 
     <Preference
         android:key="date_time_settings"

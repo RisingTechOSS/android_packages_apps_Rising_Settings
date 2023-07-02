@@ -37,20 +37,20 @@
         android:key="gesture_active_edge_summary"
         android:title="@string/elmyra_settings_entry_title"
         android:summary="@string/elmyra_settings_summary_placeholder"
-        android:fragment="com.statix.android.settings.elmyra.ElmyraSettingsFragment"
-        settings:controller="com.statix.android.settings.elmyra.ElmyraSettingsPreferenceController" />
+        android:fragment="com.rising.android.settings.elmyra.ElmyraSettingsFragment"
+        settings:controller="com.rising.android.settings.elmyra.ElmyraSettingsPreferenceController" />
 
     <Preference
         android:key="swipe_to_screenshot_summary"
         android:title="@string/swipe_to_screenshot_title"
-        android:fragment="com.statix.android.settings.gestures.SwipeToScreenshotGestureSettings"
-        settings:controller="com.statix.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+        android:fragment="com.rising.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.rising.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
     <Preference
         android:key="power_button_torch_summary"
         android:title="@string/power_button_torch_title"
-        android:fragment="com.statix.android.settings.gestures.PowerButtonTorchSettings"
-        settings:controller="com.statix.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+        android:fragment="com.rising.android.settings.gestures.PowerButtonTorchSettings"
+        settings:controller="com.rising.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
 
     <Preference
         android:key="gesture_double_tap_power_input_summary"

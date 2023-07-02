@@ -29,6 +29,6 @@
         android:title="@string/swipe_to_screenshot_title"
         android:summary="@string/swipe_to_screenshot_summary"
         app:keywords="@string/keywords_gesture"
-        app:controller="com.statix.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+        app:controller="com.rising.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
 </PreferenceScreen>

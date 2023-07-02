@@ -176,8 +176,8 @@
         android:order="-55"
         android:summary="@string/clear_calling_topintro"
         android:title="@string/clear_calling_title"
-        android:fragment="com.statix.android.settings.notification.ClearCallingSettings"
-        settings:controller="com.statix.android.settings.notification.ClearCallingPreferenceController"/>
+        android:fragment="com.rising.android.settings.notification.ClearCallingSettings"
+        settings:controller="com.rising.android.settings.notification.ClearCallingPreferenceController"/>
 
     <!-- Dial pad tones -->
     <SwitchPreference

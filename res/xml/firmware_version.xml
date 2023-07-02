@@ -32,11 +32,11 @@
 
     <!-- StatiX version -->
     <Preference
-        android:key="statix_version"
-        android:title="@string/statix_version"
+        android:key="rising_version"
+        android:title="@string/rising_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.statix.android.settings.deviceinfo.firmwareversion.StatixVersionPreferenceController"/>
+        settings:controller="com.rising.android.settings.deviceinfo.firmwareversion.RisingVersionPreferenceController"/>
 
     <!-- Security patch -->
     <Preference

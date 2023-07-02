@@ -29,6 +29,6 @@
         android:key="power_button_torch"
         android:title="@string/power_button_torch_title"
         android:summary="@string/power_button_torch_summary"
-        app:controller="com.statix.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+        app:controller="com.rising.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
 
 </PreferenceScreen>

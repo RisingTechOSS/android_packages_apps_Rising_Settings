@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.statix.android.settings.SystemSettingSwitchPreference
+    <com.rising.android.settings.SystemSettingSwitchPreference
         android:key="@string/pref_key_enabled"
         android:title="@string/elmyra_setting_enabled_title"
         android:summary="@string/elmyra_setting_enabled_summary"
@@ -22,7 +22,7 @@
         android:defaultValue="@integer/default_sensitivity"
         android:dependency="@string/pref_key_enabled" />
 
-    <com.statix.android.settings.SystemSettingListPreference
+    <com.rising.android.settings.SystemSettingListPreference
         android:key="@string/pref_key_action"
         android:title="@string/elmyra_setting_action_title"
         android:entries="@array/action_names"
@@ -30,7 +30,7 @@
         android:defaultValue="@string/default_action"
         android:dependency="@string/pref_key_enabled" />
 
-    <com.statix.android.settings.SystemSettingSwitchPreference
+    <com.rising.android.settings.SystemSettingSwitchPreference
         android:key="@string/pref_key_allow_screen_off"
         android:title="@string/elmyra_setting_screen_off_title"
         android:summary="@string/elmyra_setting_screen_off_summary"

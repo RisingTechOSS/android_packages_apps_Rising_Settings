@@ -4,13 +4,13 @@
 //
 
 package {
-    default_applicable_licenses: ["packages_apps_Statix_Settings_license"],
+    default_applicable_licenses: ["packages_apps_Rising_Settings_license"],
 }
 
 // Added automatically by a large-scale-change
 // See: http://go/android-license-faq
 license {
-    name: "packages_apps_Statix_Settings_license",
+    name: "packages_apps_Rising_Settings_license",
     visibility: [":__subpackages__"],
     license_kinds: [
         "SPDX-license-identifier-Apache-2.0",
@@ -21,7 +21,7 @@ license {
 }
 
 android_library {
-    name: "StatixSettings-res",
+    name: "RisingSettings-res",
     static_libs: [
         "elmyra-sysui-shared",
         "Settings-core",
@@ -30,7 +30,7 @@ android_library {
 }
 
 android_library {
-    name: "StatixSettings-core",
+    name: "RisingSettings-core",
     platform_apis: true,
 
     srcs: [
@@ -39,13 +39,13 @@ android_library {
     ],
     static_libs: [
         "adaptivecharging",
-        "StatixSettings-res",
+        "RisingSettings-res",
     ],
     manifest: ":Settings_manifest",
 }
 
 android_app {
-    name: "StatixSettings",
+    name: "RisingSettings",
     defaults: ["platform_app_defaults"],
     platform_apis: true,
     certificate: "platform",
@@ -57,7 +57,7 @@ android_app {
         "SettingsIntelligenceGooglePrebuilt",
     ],
     static_libs: [
-        "StatixSettings-core",
+        "RisingSettings-core",
     ],
     uses_libs: ["org.apache.http.legacy"],
     optimize: {

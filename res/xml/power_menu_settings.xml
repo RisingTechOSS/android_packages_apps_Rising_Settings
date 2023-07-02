@@ -48,7 +48,7 @@
         settings:textEnd="@string/power_menu_long_press_for_assist_sensitivity_high_label"
         settings:controller="com.android.settings.gestures.LongPressPowerSensitivityPreferenceController" />
 
-    <com.statix.android.settings.SecureSettingSwitchPreference
+    <com.rising.android.settings.SecureSettingSwitchPreference
         android:key="advanced_reboot"
         android:title="@string/global_actions_advanced_reboot_title"
         android:summary="@string/global_actions_advanced_reboot_summary"
