@@ -117,6 +117,14 @@
         android:title="@string/notification_sounds_title"
         android:order="-139">
 
+    <!-- Link ringtone and notification volumes -->
+    <com.rising.settings.preferences.AdaptiveSwitchPreference
+        android:key="volume_link_notification"
+        android:title="@string/volume_link_notification_title"
+        android:order="-138"
+        settings:position="top"
+        settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
+
     <!-- Increasing ring -->
     <com.rising.settings.preferences.SystemSettingSwitchPreference
         android:key="increasing_ring"
