@@ -45,7 +45,7 @@ public class SmartPixelsPreferenceController extends BasePreferenceController {
     @Override
     public int getAvailabilityStatus() {
         final boolean enableSmartPixels =
-                mContext.getResources().getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+                mContext.getResources().getBoolean(com.android.internal.R.bool.config_supportSmartPixels);
         return enableSmartPixels ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }

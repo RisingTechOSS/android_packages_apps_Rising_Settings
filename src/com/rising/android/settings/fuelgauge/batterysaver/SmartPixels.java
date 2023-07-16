@@ -136,7 +136,7 @@ public class SmartPixels extends SettingsPreferenceFragment implements Indexable
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
                     if(context.getResources().
-                            getBoolean(com.android.internal.R.bool.config_enableSmartPixels)) {
+                            getBoolean(com.android.internal.R.bool.config_supportSmartPixels)) {
                         sir.xmlResId = R.xml.smart_pixels;
                     }
                     result.add(sir);
